@@ -1,5 +1,5 @@
-function reloadPage() {
-    window.location.reload()
+function reloadHomePage() {
+    window.location.href = 'index.html';
 }
 // window is the global window OBJECT
 // location is a PROPERTY of the window object 
