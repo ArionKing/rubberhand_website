@@ -7,8 +7,20 @@ body {
 }
 
 p {
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 18px;
     color: #FFFF00;
     margin-left: 600px; 
     margin-top: 20px; 
 }
 
+button {
+    color: #030003; 
+    cursor: pointer; 
+    background-color: #FF6600;
+    padding: 10px 20px;
+    width: 200px;
+    margin-inline-start: 800px; 
+    margin-inline-start: 170px; 
+}
