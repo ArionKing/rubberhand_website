@@ -12,12 +12,14 @@ table {
 }
 
 thead tr {
-    background-color: #cf6f02;
+    background-color: #FF6600;
+    padding: 12px 15px;
+    border: 3px solid #2307dd;
 }
 
 th, td {
     padding: 12px 15px;
-    border: 1px solid #000000;
+    border: 2px solid #000000;
 }
 
 tbody tr:nth-child(even) {
