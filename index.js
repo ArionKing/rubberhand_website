@@ -27,10 +27,11 @@ function showSlides() {
 }
 
 function changeSlide(n) { // the n represents the amount by which the slide index should be changed. 
-    showSlides(slideIndex += n); // This expression adds n to the current value of slideIndex. The += operator.
+    slideIndex += n; // This expression adds n to the current value of slideIndex. The += operator.
 }
 
 function currentSlide(n) { // 
-    showSlides(slideIndex = n); // Here, slideIndex = n is an assignment operation that sets the value of slideIndex to the value of n.
+    slideIndex = n; // Here, slideIndex = n is an assignment operation that sets the value of slideIndex to the value of n.
 }
 
+// slideshow code end //
