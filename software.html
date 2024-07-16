@@ -3,8 +3,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <script src ="../index.js"></script>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <p>SOFTWARE PAGE</p>
     <button type="button" onclick="reloadHomePage()">Home</button>
+
+    <!-- // slideshow code -->
+    <div class="slideshow container">
+        <div class="slide fade">
+            <img src="./Images_website/beware_of_the_frog_web.jpg" alt="froggy pic">
+        </div>
+        <div class="slide fade">
+            <img src ="./Images_website/dark_dare_web.jpg" alt = "dark web pic">
+        </div>
+        <div class="slide fade">
+            <img src = "./Images_website/dragons_day_off_web.jpg" alt="dragons day off pic"> 
+        <div class ="slide fade">
+            <img src = "./Images_website/franken_face_web.jpg" alt = "frankinface pic">
+        
+        <a class="prev" onClick="changeSlide(-1)">&#10094</a>
+        <a class="next" onClick="changeSlide(+1)">&#10095</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onClick="currentSlide(1)"></span>
+        <span class="dot" onClick="currentSlide(2)"></span>
+        <span class="dot" onClick="currentSlide(3)"></span>
+        <span class="dot" onClick="currentSlide(4)"></span>
+    </div>
 </body>
+
+
